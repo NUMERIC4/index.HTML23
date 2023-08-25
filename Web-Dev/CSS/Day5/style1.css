@@ -1,0 +1,28 @@
+/* We need a selector to style it  */
+
+a{
+    color: Purple;
+    text-decoration: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    /* this will change h1 tag color !! for all !!*/
+    color: darkgrey; 
+}
+
+/* Selector create procedure
+1- with ID :                according to ame or class name          with start # have to use!!!
+2- Combinatorial :          According to relations
+3- Psudo-Class selector:    according to specific situations
+4- Pseudo-elements selector:according to a part of an element
+5- Attribute selectors:     according to attributes of elements
+*/
+
+.myFirstClass{
+    /* It will change just the elements that has class name sam with "myFirstClass" */
+    color: red;
+}
+
+/* There is an overruled selectors exist. For CSS welldefined addresses overruled the less defined ones !!!
+or the last updated style overruled the previous defined ones IFF both defined same detail level */
